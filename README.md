@@ -36,5 +36,5 @@ This repository contains automated visual tests for the ACME Bank demo applicati
 | :--- | :--- | :--- |
 | **`maxDiffPixels`** | `50` | Maximum number of different pixels allowed before a test fails. |
 | **`threshold`** | `0.5` | Maximum percentage difference (0.5%) allowed between images before failure. |
-| **`trace`** | `'on'` | Enables Playwright tracing to capture detailed step-by-step screenshots for debugging purposes. |
+| **`trace`** | `on` | Enables Playwright tracing to capture detailed step-by-step screenshots for debugging purposes. |
 | **`size`** | `1280 x 720` | Tests are executed using the default browser viewport size. |
