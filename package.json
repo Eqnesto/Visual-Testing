@@ -1,0 +1,21 @@
+{
+  "name": "playwright-visual-tests",
+  "version": "1.0",
+  "author": "Eqnesto",
+  "description": "Playwright project for visual testing.",
+  "main": "index.js",
+  "scripts": {
+    "test:update:screenshots": "npx playwright test --update-snapshots",
+    "test:visual:all": "playwright test && npx playwright show-report",
+    "test:visual:chrome": "npx playwright test --project=chrome && npx playwright show-report",
+    "test:visual:firefox": "npx playwright test --project=firefox && npx playwright show-report",
+    "test:visual:safari": "npx playwright test --project=safari && npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "visual-testing"
+  ],
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
