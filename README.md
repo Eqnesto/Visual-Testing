@@ -1,4 +1,4 @@
-# 👁️ Visual Testing
+# 🖼️ Visual Testing
 
 This repository contains automated visual tests for a bank demo website using Playwright's native screenshot comparison. It enforces the consistency of the user interface across different browsers and screen sizes by comparing current snapshots against approved baselines.
 
