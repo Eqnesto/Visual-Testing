@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Visual Testing', () => {
 
-  test('ACME Bank - Verify Login & Main Page', async ({ page }) => {
+  test('Bank - Verify Login & Main Page', async ({ page }) => {
 
     // Load the login page.
     await page.goto('https://demo.applitools.com');
